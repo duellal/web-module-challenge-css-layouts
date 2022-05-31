@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* Sizing and spacing text */
@@ -25,6 +25,7 @@ h1, h2, h3, p{
 
 h1{
     font-size: 5rem;
+    padding:3%;
 }
 
 h2{
@@ -32,11 +33,12 @@ h2{
 }
 
 h3{
-    font-size: 2.25rem;
+    font-size: 3rem;
+    padding:1%;
 }
 
 p{
-    font-size:2rem;
+    font-size:2.5rem;
 }
 
 /* Header Section */
@@ -74,15 +76,71 @@ a {
 
 /* Top Section */
 #name{
+    width:100%;
     padding: 20% 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#name div{
+    width:75%;
+}
 
 /* Project Section */
+.md-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.all-projects{
+    display:flex;
+    justify-content: center;
+    align-items:space-evenly;
+    flex-wrap: wrap;
+}
+
+.text, .island, .bakery, .tree, .travel, .book, .plant {
+    width: 30%;
+    margin:1%;
+}
+
+.text{
+    height:10vh;
+}
+
+.island,
+.bakery,
+.tree,
+.travel,
+.book,
+.plant {
+    height: 50vh;
+}
+
+.island {
+    background-image: url('../images/island.jpeg');
+}
+
+.bakery{
+    background-image: url(../images/building-w:-patio.jpeg);
+}
+
+.tree {
+    background-image: url(../images/tree.jpeg);
+}
+
+.travel {
+    background-image: url(../images/sunset-top-buildings.jpeg);
+}
+
+.book{
+    background-image: url(../images/book.jpeg);
+}
+
+.plant{
+    background-image: url(../images/pink-flowers.jpeg);
+}
 
 /* Footer */
 
