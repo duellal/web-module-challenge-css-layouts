@@ -71,6 +71,11 @@ nav{
     justify-content:flex-start;
 }
 
+/* Buttons:
+- sizing weirdly when expanding/decompressing browser 
+- want to round them better
+- possibly different transition/animation
+*/
 .buttons{
     width: 40%;
     display:flex;
@@ -173,6 +178,9 @@ footer {
     padding: 2%;
 }
 
+/* Contact Button:
+- fix size of button
+ */
 .btm-btn{
     display:flex;
     justify-content: flex-end;
@@ -186,6 +194,11 @@ footer {
     justify-content: flex-end;
 }
 
+/* LinkedIn Logo:
+- possibly different color
+- fix div(?) that it's inside 
+- possibly tranisition/animation for it
+ */
 .linkdin {
     display: flex;
     align-items: flex-start;
