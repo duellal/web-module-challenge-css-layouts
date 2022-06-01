@@ -1,1 +1,221 @@
-/* Add CSS styling here */
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /* border: 1px solid black; */
+}
+
+/* Sizing and spacing text */
+html{
+    font-size: 62.5%;
+    background-color: #F7EFFF;
+}
+
+body{
+    font-size: 1.8rem;
+    color: #212F3C;
+}
+
+h1, h2, h3, p{
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+h1{
+    font-size: 5rem;
+    padding:3%;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 3rem;
+    padding:1%;
+}
+
+p{
+    font-size:2.5rem;
+}
+
+.linkdin p{
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* Header Section */
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(99, 74, 109);
+    color: whitesmoke;
+    padding: 1% 2%;
+}
+
+.top {
+    width:100%;
+    position: fixed;
+}
+
+.name{
+    width: 60%;
+    display:flex;
+    justify-content:flex-start;
+}
+
+/* Buttons:
+- sizing weirdly when expanding/decompressing browser 
+- want to round them better
+- possibly different transition/animation
+*/
+.buttons{
+    width: 40%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    color: whitesmoke;
+    padding: 1% 0;
+}
+
+.buttons a, .btm-btn a {
+    padding: 2% 4%;
+    transition: 3s;
+    border: 2px solid #150bd3;
+    border-radius: 25%;
+    background-color: #150bd3;
+}
+
+.buttons a:hover, .btm-btn a:hover{
+    background-color: #F7EFFF;
+    color: #212F3C;
+}
+
+/* Top Section */
+#name{
+    width:100%;
+    padding: 20% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name div{
+    width:75%;
+}
+
+/* Project Section */
+.md-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.all-projects{
+    display:flex;
+    justify-content: center;
+    align-items:space-evenly;
+    flex-wrap: wrap;
+}
+
+.text, .island, .bakery, .tree, .travel, .book, .plant {
+    width: 30%;
+    margin:1%;
+}
+
+.text {
+    height:10vh;
+}
+
+.text h3 a{
+    color: #212F3C;
+}
+
+.island,
+.bakery,
+.tree,
+.travel,
+.book,
+.plant {
+    height: 50vh;
+}
+
+.island {
+    background-image: url('../images/island.jpeg');
+}
+
+.bakery{
+    background-image: url('../images/building-w:-patio.jpeg');
+}
+
+.tree {
+    background-image: url('../images/tree.jpeg');
+}
+
+.travel {
+    background-image: url('../images/sunset-top-buildings.jpeg');
+}
+
+.book{
+    background-image: url('../images/book.jpeg');
+}
+
+.plant{
+    background-image: url('../images/pink-flowers.jpeg');
+}
+
+/* Footer */
+footer {
+    width:100%;
+    display: flex;
+    background-color: rgb(99, 74, 109);
+    padding: 2%;
+}
+
+/* Contact Button:
+- fix size of button
+ */
+.btm-btn{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center; 
+    text-align: center;
+    width:50%;
+}
+
+.btm-btn a{
+    width: 100%;
+    justify-content: flex-end;
+}
+
+/* LinkedIn Logo:
+- possibly different color
+- fix div(?) that it's inside 
+- possibly tranisition/animation for it
+ */
+.linkdin {
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.linkdin p{
+    padding-right: 1%;
+}
+
+.linkdin a{
+    display:flex;
+    background-image: url('../images/LI-Logo.png');
+    width: 15%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+}
