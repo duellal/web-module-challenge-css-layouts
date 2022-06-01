@@ -219,3 +219,11 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+/* Responsive Design */
+/* 800px or less */
+@media(max-width: 800px){
+    
+}
+
+/* 500px or less */
