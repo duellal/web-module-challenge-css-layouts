@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 /* Sizing and spacing text */
@@ -194,30 +194,22 @@ footer {
 }
 
 /* Responsive Design */
-/* 2500px or less*/
-@media(max-width:2500px){
+/* 1920px or less */
+@media(max-width:1929px){
     html{
         font-size:125%;
     }
 }
 
-/* 1623px or less */
-@media(max-width:1623px){
+/* 1366px or less */
+@media(max-width:1366px){
     html{
         font-size: 100%;
     }
 }
 
-/* 1313px or less */
-@media(max-width:1313px){
-    html{
-        font-size: 70%;
-    }
-}
-
-/* 940px or less */
-/* Need to fix LinkedIn Logo to scale down a bit */
-@media(max-width: 940px){
+/* 860px or less */
+@media(max-width: 860px){
     html{
         font-size: 50%;
     }
@@ -245,7 +237,6 @@ footer {
 }
 
 /* 500px or less */
-/* Need to fix LinkedIn Logo to scale down a bit */
 @media(max-width: 500px){
     html{
         font-size: 40%;
@@ -310,29 +301,3 @@ footer {
 }
 
 /* 360px or less */
-/* Need to fix LinkedIn Logo to scale down a bit */
-@media(max-width:360px){
-    html{
-        font-size: 40%;
-    }
-    #name{
-        padding-top:70%;
-    }
-    .text,
-    .island,
-    .bakery,
-    .tree,
-    .travel,
-    .book,
-    .plant {
-        width:40%;
-    }
-    .island,
-    .bakery,
-    .tree,
-    .travel,
-    .book,
-    .plant {
-        height: 15vh;
-    }
-}

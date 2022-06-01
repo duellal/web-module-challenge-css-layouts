@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5501/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Alexandria Duell&#39;s Projects_files/index.css">
+    <title>Alexandria Duell's Projects</title>
+</head>
+
+<body>
+    <header>
+        <nav class="top">
+            <div class="name">
+                <h2>Alexandria Duell</h2>
+            </div>
+            <div class="buttons">
+                <a href="http://127.0.0.1:5501/index.html">Home</a>
+                <a href="http://127.0.0.1:5501/about.html">About</a>
+                <a href="http://127.0.0.1:5501/projects.html">Projects</a>
+                <a href="http://127.0.0.1:5501/contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="name">
+        <div>
+            <h1>Alexandria Duell</h1>
+            <h3>Software Developer</h3>
+            <p>Projects</p>
+        </div>
+    </section>
+
+    <section id="projects" class="md-img">
+        <div class="all-projects">
+            <div class="md-img island one">
+                <img src="./Alexandria Duell&#39;s Projects_files/island.jpeg" alt="Island in center with blue ocean in forefront">
+            </div>
+            <div class="md-img bakery two">
+                <img src="./Alexandria Duell&#39;s Projects_files/building-w_-patio.jpeg" alt="Brick building with a patio">
+            </div>
+            <div class="md-img tree five">
+                <img src="./Alexandria Duell&#39;s Projects_files/tree.jpeg" alt="Photo of tree from ground up">
+            </div>
+            <div class="text three">
+                <h3> <a href="http://127.0.0.1:5501/projects.html">Project Island</a> </h3>
+            </div>
+            <div class="text four">
+                <h3> <a href="http://127.0.0.1:5501/projects.html">Project Bakery</a> </h3>
+            </div>
+            <div class="text seven">
+                <h3> <a href="http://127.0.0.1:5501/projects.html">Tree Project</a> </h3>
+            </div>
+            <div class="md-img plant six">
+                <img src="./Alexandria Duell&#39;s Projects_files/pink-flowers.jpeg" alt="White flowers with pink accents on a tree branch">
+            </div>
+            <div class="md-img travel eight">
+                <img src="./Alexandria Duell&#39;s Projects_files/leaning-tower.jpeg" alt="Leaning tower of Pisa">
+            </div>
+            <div class="md-img book nine">
+                <img src="./Alexandria Duell&#39;s Projects_files/book.jpeg" alt="Open book on table">
+            </div>
+            <div class="text seven">
+                <h3> <a href="http://127.0.0.1:5501/projects.html">Plant Project</a> </h3>
+            </div>
+            <div class="text ten">
+                <h3> <a href="http://127.0.0.1:5501/projects.html">Travel Project</a> </h3>
+            </div>
+            <div class="text eleven">
+                <h3> <a href="http://127.0.0.1:5501/projects.html">Book Project</a> </h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+            <div class="linkdin">
+                <p>Check out my LinkedIn Profile:</p>
+                <a href="https://www.linkedin.com/in/alexandria-duell/" target="_blank"> <img src="./Alexandria Duell&#39;s Projects_files/LI-Logo.png" alt="LinkedIn Logo"> </a>
+            </div>
+            <div class="btm-btn">
+                <a href="http://127.0.0.1:5501/contact.html">Contact Me</a>
+            </div>
+    </footer>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
